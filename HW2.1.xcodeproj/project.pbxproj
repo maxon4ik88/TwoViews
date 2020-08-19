@@ -13,6 +13,7 @@
 		87E296CB24EDB7DB0068D7F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E296C924EDB7DB0068D7F7 /* Main.storyboard */; };
 		87E296CD24EDB7DC0068D7F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E296CC24EDB7DC0068D7F7 /* Assets.xcassets */; };
 		87E296D024EDB7DC0068D7F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E296CE24EDB7DC0068D7F7 /* LaunchScreen.storyboard */; };
+		87E296D824EDB82E0068D7F7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 87E296D724EDB82E0068D7F7 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		87E296CC24EDB7DC0068D7F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87E296CF24EDB7DC0068D7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87E296D124EDB7DC0068D7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87E296D724EDB82E0068D7F7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		87E296B724EDB7DB0068D7F7 = {
 			isa = PBXGroup;
 			children = (
+				87E296D724EDB82E0068D7F7 /* .gitignore */,
 				87E296C224EDB7DB0068D7F7 /* HW2.1 */,
 				87E296C124EDB7DB0068D7F7 /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E296D824EDB82E0068D7F7 /* .gitignore in Resources */,
 				87E296D024EDB7DC0068D7F7 /* LaunchScreen.storyboard in Resources */,
 				87E296CD24EDB7DC0068D7F7 /* Assets.xcassets in Resources */,
 				87E296CB24EDB7DB0068D7F7 /* Main.storyboard in Resources */,
@@ -293,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "maxonDevelopment.HW2-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "maxonDevelopment.HW2-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
