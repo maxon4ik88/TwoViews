@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,34 +12,43 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HW2_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dmn-KK-ErT">
-                                <rect key="frame" x="134" y="515" width="146" height="111"/>
+                                <rect key="frame" x="20" y="69" width="374" height="388.5"/>
                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="dmn-KK-ErT" secondAttribute="height" multiplier="1:1" constant="35" id="U5m-v7-0jU"/>
-                                </constraints>
+                            </view>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t7z-Uc-yXT">
+                                <rect key="frame" x="20" y="482.5" width="374" height="388.5"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                         <constraints>
-                            <constraint firstItem="dmn-KK-ErT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="134" id="Exu-iH-EbH"/>
-                            <constraint firstItem="dmn-KK-ErT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="515" id="EyS-XD-J0c"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dmn-KK-ErT" secondAttribute="bottom" constant="110" id="FxE-zw-rgq"/>
-                            <constraint firstItem="dmn-KK-ErT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bil-r8-Se4"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dmn-KK-ErT" secondAttribute="trailing" constant="134" id="hvo-ea-B8l"/>
+                            <constraint firstItem="t7z-Uc-yXT" firstAttribute="height" secondItem="dmn-KK-ErT" secondAttribute="height" id="6cN-42-AWi"/>
+                            <constraint firstItem="t7z-Uc-yXT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Cf3-dZ-l9k"/>
+                            <constraint firstItem="t7z-Uc-yXT" firstAttribute="height" secondItem="dmn-KK-ErT" secondAttribute="height" id="LMm-lp-uv5"/>
+                            <constraint firstItem="t7z-Uc-yXT" firstAttribute="top" secondItem="dmn-KK-ErT" secondAttribute="bottom" constant="25" id="NNe-pA-Lwm"/>
+                            <constraint firstItem="dmn-KK-ErT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="25" id="O3b-qm-Bid">
+                                <variation key="heightClass=compact-widthClass=regular" constant="25"/>
+                            </constraint>
+                            <constraint firstAttribute="bottom" secondItem="t7z-Uc-yXT" secondAttribute="bottom" constant="25" id="YCq-qq-pPj"/>
+                            <constraint firstItem="dmn-KK-ErT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f3m-GS-1kr"/>
+                            <constraint firstItem="dmn-KK-ErT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="h9U-II-Jeo"/>
+                            <constraint firstItem="t7z-Uc-yXT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vsN-EM-2x0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="128.98550724637681" y="104.34782608695653"/>
+            <point key="canvasLocation" x="127.09359605911331" y="101.59999999999999"/>
         </scene>
     </scenes>
 </document>
